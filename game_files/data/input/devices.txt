@@ -1,0 +1,2 @@
+configId,guid,model|
+0,%22a652b680-5433-11e2-0000545345440180%22,HOTAS%20Cougar%20Joystick
