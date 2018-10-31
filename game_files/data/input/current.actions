@@ -125,6 +125,7 @@ cam_rotate_hf_pitch,                              mouse_axis_y,                 
 cam_rotate_hf_yaw_center,                         key_numpad5,                                      0| // Center head independent view horizontally
 cam_rotate_hf_pitch_center,                       key_numpad5,                                      0| // Center head independent view vertically
 autopilot,                                        key_a,                                            0| // AI-autopilot on/off
+freelook,                                         mouse_b1,                                         0| // FreeLook
 autolevelflight,                                  key_lshift+key_a,                                 0| // AI-autopilot for level flight: on/off
 autolevelflight_to_left,                          key_lshift+key_z,                                 0| // Level flight AI-autopilot: left turn
 autolevelflight_to_right,                         key_lshift+key_x,                                 0| // Level flight AI-autopilot: right turn
@@ -308,6 +309,8 @@ mc_pitch_free,                                    mouse_axis_y+mouse_b1,        
 mc_yaw_free,                                      mouse_axis_x+mouse_b1,                            0| // inpmc_yaw_free
 vc_engine_switch,                                 key_e,                                            0| // inpvc_engine_switch
 vc_brake,                                         key_space,                                        0| // inpvc_brake
+cam_switch_mc_far,                                key_f4,                                           0| // inpcam_switch_mc_far
+cam_switch_mc_close,                              key_f1,                                           0| // inpcam_switch_mc_close
 ext_action1,                                      key_lwin+key_1,                                   0| // inpext_action1
 ext_action1,                                      key_rwin+key_1,                                   0|
 ext_action2,                                      key_lwin+key_2,                                   0| // inpext_action2
